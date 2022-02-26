@@ -11,11 +11,75 @@
   },
   "tags": [
     {
+      "key": "capital",
+      "value": "2",
+      "object_types": [
+        "node"
+      ],
+      "description": "Marks the city with a national capital icon.",
+      "doc_url": "https://openmaptiles.org/schema/#capital",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/star_nation_capital.svg"
+    },
+    {
+      "key": "capital",
+      "value": "4",
+      "object_types": [
+        "node"
+      ],
+      "description": "Marks the city with a state capital icon.",
+      "doc_url": "https://openmaptiles.org/schema/#capital",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/star_state_capital.svg"
+    },
+    {
+      "key": "claimed_by",
+      "object_types": [
+        "way",
+        "relation"
+      ],
+      "description": "Hides the boundary.",
+      "doc_url": "https://openmaptiles.org/schema/#claimed_by"
+    },
+    {
+      "key": "expressway",
+      "value": "yes",
+      "object_types": [
+        "way"
+      ],
+      "description": "Highlights the road without affecting the zoom levels at which it appears.",
+      "doc_url": "https://openmaptiles.org/schema/#expressway"
+    },
+    {
+      "key": "maritime",
+      "value": "yes",
+      "object_types": [
+        "way"
+      ],
+      "description": "Hides the boundary.",
+      "doc_url": "https://openmaptiles.org/schema/#maritime"
+    },
+    {
+      "key": "network",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Determines the design of the shield that marks roads carrying the route relation. An unrecognized value results in a generic shield.",
+      "doc_url": "https://openmaptiles.org/schema/#route_1"
+    },
+    {
       "key": "ref",
       "object_types": [
         "relation"
       ],
-      "description": "Populates shields that mark roads carrying the route relation."
+      "description": "Populates shields that mark roads carrying the route relation.",
+      "doc_url": "https://openmaptiles.org/schema/#route_1"
+    },
+    {
+      "key": "surface",
+      "object_types": [
+        "way"
+      ],
+      "description": "Unpaved roads have an alternating dash pattern.",
+      "doc_url": "https://openmaptiles.org/schema/#surface"
     },
     {
       "key": "network",
@@ -1123,6 +1187,594 @@
       ],
       "description": "Roads carrying routes in this network are marked by shields modified by ALT banners.",
       "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_us_wa.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:national",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_national_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:AH",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:AH:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:BJ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:BJ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:CQ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:CQ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:FJ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:FJ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:GD",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:GD:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:GS",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:GS:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:GX",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:GX:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:GZ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:GZ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HA",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HA:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HB",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HB:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HE",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HE:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HI",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HI:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HL",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HL:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:HN",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:HN:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:JL",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:JL:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:JS",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:JS:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:JX",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:JX:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:LN",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:LN:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:NM",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:NM:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:NX",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:NX:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:QH",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:QH:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:SC",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:SC:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:SD",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:SD:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:SH",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:SH:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:SN",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:SN:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:SX",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:SX:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:TJ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:TJ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:XJ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:XJ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:XZ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:XZ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:YN",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:YN:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "CN:ZJ",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
+    },
+    {
+      "key": "network",
+      "value": "CN:ZJ:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_cn_regional_expressway_2.svg"
+    },
+    {
+      "key": "network",
+      "value": "HK",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_hk.svg"
+    },
+    {
+      "key": "network",
+      "value": "TW:freeway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_tw_freeway.svg"
+    },
+    {
+      "key": "network",
+      "value": "TW:provincial",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_tw_provincial.svg"
+    },
+    {
+      "key": "network",
+      "value": "TW:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields.",
+      "icon_url": "https://raw.githubusercontent.com/ZeLonewolf/openstreetmap-americana/main/style/icons/shield40_tw_expressway.svg"
+    },
+    {
+      "key": "network",
+      "value": "vn:expressway",
+      "object_types": [
+        "relation"
+      ],
+      "description": "Roads carrying routes in this network are marked by shields."
     },
     {
       "key": "network",
